@@ -1,26 +1,29 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      Rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+title:            Huberization
+tagline:          'Bastien Huber\s webste'
+description:      'The personal website of a French student who wants to build meaningful and ethical services'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Bastien Huber'
+  url:            https://twitter.com/bastien_hub
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+links:
+  twitter:        https://twitter.com/bastien_hub
+  linkedin:       https://www.linkedin.com/in/bastienhuber/
+  instagram:      https://www.instagram.com/bastienhub/
+
+gems:             [jekyll-paginate]

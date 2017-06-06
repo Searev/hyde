@@ -3,28 +3,26 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hi there !
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+My name is Bastien Huber. I am an engineering student from the
+Ecole Centrale de Lille, France.
 
-There are currently two themes built on Poole:
+I am passionate about Information Technologies, but often quite critical
+on the way they are used. Therefore, I want to commit myself to projects
+that will actually use them in an ethical way : that is to say, that will
+not sell their users information, spy on them, or that will try to find
+psychological tricks to make them check their smartphone every 2 minutes.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+In 2017, I launched [MatchMyProject](https://matchmyproject.com), a platform
+that helps student finding partners for their projects. For now, it is only
+available in a few schools in France, but do not hesitate to contact me if you
+want to join the network !
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I also love cooking (mostly pastries), watching movies or TV shows, running,
+dancing, playing board games, reading menswear blog, and performing on a stage.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+After my friends and I had a bit of fun with the similarities between my last
+name and the company "Uber", which has become an adjective I am sick of hearing
+everywhere, I decided to buy the domain name `huberisation.fr`, and turn it
+into a personal website. Hope you find it useful !
