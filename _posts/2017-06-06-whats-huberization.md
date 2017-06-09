@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is Huberization ?
+title: What is (H)uberization ?
 ---
 
 In 2016, everybody had a word on their lips: uberization. This expression, made
@@ -26,13 +26,21 @@ broadly translates as:
 
 Of course, the success of companies like Uber cannot just be accounted for their
 dubious business model, built over the hard work of contractors who hardly make
-a living out of it. I have to grant them with some credit for achieving nicely
-designed applications that take fully advantage of the modern technologies, and
-for disrupting fields of activities that rested for too long on a monopoly which
-turned into an excuse for their mediocrity.
+a living out of it. They also have succeeded because they were able to build,
+quickly, brilliantly designed apps that were able to disrupt fields of activities
+that rested for too long on their monopoly.
 
-My name is Bastien Huber. I am a student in a French Engineering School, and
-co-founder of [MatchMyProject](https://matchmyproject.com), a platform that
-helps students finding partners for their projects. In this website, I will try
-to explore new services, technologies and business models, see how they are
-built, and share with you how they can be used in various projects.
+Because we now live in a world where a couple of students can build, over
+the course of a weekend, in their dorm room, a service that may go viral and be
+used by millions, we have to stay tuned to the newest technologies and business
+models. And that does not just mean hearing about the technologies with
+[the highest hype according to Gartner](http://blogs.gartner.com/smarterwithgartner/gartners-top-10-strategic-technology-trends-for-2015/). It means being able to *actually understand* how these technologies work,
+and how they can *actually make sense* and be used in real-life applications.
+
+This is the mission I modestly will try to achieve in this blog. Every now and
+then, I will explore new technologies that seem promising, see how they are
+built and how we can use them in various projects. If I have the courage, I might
+even try to start some, in which case you would be welcome to contribute :)
+
+**TL;DR:** This is a blog about how we can use modern technologies to build
+actual and useful stuff.
