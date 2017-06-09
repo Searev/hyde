@@ -25,5 +25,6 @@ links:
   twitter:        https://twitter.com/bastien_hub
   linkedin:       https://www.linkedin.com/in/bastienhuber/
   instagram:      https://www.instagram.com/bastienhub/
+  github:         https://github.com/searev
 
 gems:             [jekyll-paginate]

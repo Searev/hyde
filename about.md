@@ -26,3 +26,7 @@ After my friends and I had a bit of fun with the similarities between my last
 name and the company "Uber", which has become an adjective I am sick of hearing
 everywhere, I decided to buy the domain name `huberisation.fr`, and turn it
 into a personal website. Hope you find it useful !
+
+## About the website
+* Built on [Jekyll](http://jekyllrb.com) with the [Hyde](http://hyde.getpoole.com) theme
+* Hosted on [Github Pages](https://pages.github.com)

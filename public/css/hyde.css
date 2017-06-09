@@ -248,3 +248,13 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+
+/* Perso : Material Design Blue Duck */
+.theme-base-perso .sidebar {
+  background-color: #009688;
+}
+.theme-base-perso .content a,
+.theme-base-perso .related-posts li a:hover {
+  color: #26A69A;
+}
