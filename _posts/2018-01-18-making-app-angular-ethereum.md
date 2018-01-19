@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "Building a DApp with the Ethereum blockchain and Angular 5 - part 1:
-the Smart Contract"
+title: "Building a DApp with the Ethereum blockchain and Angular 5 - part 1: the Smart Contract"
 ---
 
 2017 has been a rich year for blockchain-based applications. Literally. Bitcoin

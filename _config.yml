@@ -7,8 +7,8 @@ permalink:        pretty
 
 # Setup
 title:            Huberization
-tagline:          'Bastien Huber\s webste'
-description:      'The personal website of a French student who wants to build meaningful and ethical services'
+tagline:          'Tech and stuff'
+description:      'The personal website of a French engineer who wants to build meaningful and ethical services'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
