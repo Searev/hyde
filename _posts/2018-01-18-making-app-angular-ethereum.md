@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a DApp with the Ethereum blockchain and Angular 5 - part 1: the Smart Contract"
+title: "Building a dApp with the Ethereum blockchain and Angular 5 - part 1: the Smart Contract"
 ---
 
 2017 has been a rich year for blockchain-based applications. Literally. Bitcoin
@@ -17,7 +17,6 @@ the end users), or simply because this kind of development has not yet been
 democratized as is web development today.
 
 In this new series of articles, we'll try together to create a small
-
 blockchain-based application. I will not go into detail about what a blockchain
 is or how it works. Plenty has been written on the matter, and I can only
 recommend you to have a look at:
@@ -145,7 +144,7 @@ $ truffle create contract GiveTheMoneyBack
 This will create a file called `GiveTheMoneyBack.sol` in the `contracts` folder.
 It should look something like this.
 
-```
+``` Solidity
 pragma solidity ^0.4.4;
 
 contract GiveTheMoneyBack {
@@ -172,7 +171,7 @@ The first thing we need to do is specify our variables. We need to save:
 
 The beginning of our contract should therefore look like:
 
-```
+``` Solidity
 pragma solidity ^0.4.18;
 
 contract GiveTheMoneyBack {
@@ -228,7 +227,7 @@ Now, let's create the functions we will need for this contract to work:
 
 We now have:
 
-```js
+``` Solidity
 pragma solidity ^0.4.18;
 
 contract GiveTheMoneyBack {
@@ -236,6 +235,7 @@ contract GiveTheMoneyBack {
     address public owner; // creator of the contract
     address public receiver; // person who owes money
     address[] public backers; // people who back up the request
+    uint256 public nbBackers; // Number of persons who backed the requests.
     uint256 public amount; // amount of wei owed
     string public description; // why the money is owed
 
@@ -259,6 +259,7 @@ contract GiveTheMoneyBack {
         amount = etherAmount * 10 ** 18; // converts the ether into wei. 1 ether = 10^18 wei
         description = explanation;
         backers.push(owner); // add the creator of the contract as a backer
+        nbBackers = 1;
     }
 
     /**
@@ -271,6 +272,7 @@ contract GiveTheMoneyBack {
         }
         backers.push(msg.sender);
         Backed(msg.sender);
+        nbBackers++;
         return true;
     }
 
@@ -585,7 +587,11 @@ Truffle, how we could write a smart-contract, and how we could test it before
 publishing it. I hope you have found it useful; do not hesitate to ask me any
 question if there is some grey area.
 
-All the code of this project is available on [Gitlab](https://github.com/searev-experiments/gtmb-smart-contract)
+All the code of this project is available on [Github](https://github.com/searev-experiments/gtmb-smart-contract)
 
-In the next article, we will see how we can create our own application working
-with using Angular 5, and how to make it interact with our contract.
+In the [next article](http://huberisation.eu/2018/01/24/building-app-angular-ethereum-part-2/),
+we will see how we can create our own application using Angular 5, and how to
+make it interact with our contract.
+
+## Sources
+* the [Truffle documentation](http://truffleframework.com/docs/)
