@@ -601,7 +601,25 @@ export class GtmbService {
 }
 ```
 
-We could then set up a [Guard]() to check that the user who loads the application
+If you want to use it with the development blockchain, you will first need to
+configure it to work with our private network, which is most likely running at
+`http://localhost:9545`.
+
+You will need to connect to this network using an account. You can either chose
+one of those provided by Truffle - in that case, you might need to restore it
+from a pass phrase, most likely *candy maple cake sugar pudding cream honey* 
+*rich smooth crumble sweet treat*.
+
+![truffle reset password](https://raw.githubusercontent.com/Searev/searev.github.io/master/_assets/2018-01-25-building-app-angular-ethereum-part-3/metamask_restore.png)
+
+When using Metamask, if the user is about to perform a transaction,
+like create a request, back one up or pay, he or she will then see
+a pop-up scren to specify the amount of gas, confirm the transaction,
+etc.
+
+![truffle-approve](https://raw.githubusercontent.com/Searev/searev.github.io/master/_assets/2018-01-25-building-app-angular-ethereum-part-3/metamask_approve.png)
+
+We could set up a Guard to check that the user who loads the application
 has correctly set up MetaMask; and redirect him or her to a page that explains
 it if not. But that goes beyond the scope of this project.
 
